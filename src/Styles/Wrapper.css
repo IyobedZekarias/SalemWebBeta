@@ -1,0 +1,134 @@
+.wrapper{
+	display: grid;
+	grid-template-columns: repeat(8, 112.7px);
+	grid-template-rows: repeat(10, 3em);
+}
+
+.Hands {
+	grid-column: 1 /4;
+	grid-row: 1/4;
+}
+.InfoText{
+	grid-column: 1/5;
+	grid-row: 2/9;
+	margin-right: -200px;
+	background: url('./Images/logo.jpg') no-repeat;
+	border-right: solid;
+	border-width: 1px;
+}
+.title{
+	margin-bottom: 0px;
+	padding-bottom: 20px;
+	width: 650px;
+	font-family: 'Istok Web', Verdana, sans-serif;
+	color: #333333;
+	font-size: 30px;
+	padding-left: 0px;
+}
+.body1{
+	margin-top: -.5em;
+	margin-bottom: -1.2em;
+	padding-right: 1em;
+	font-family: 'Istok Web', Verdana, sans-serif;
+	color: #333333;
+	font-size: 18px;
+	line-height: 23px;
+}
+.body2{
+	padding-top: .7em;
+	font-family: 'Istok Web', Verdana, sans-serif;
+	color: #333333;
+	padding-right: 1em;
+	font-size: 18px;
+	line-height: 23px;
+}
+.Performance{
+	grid-column: 8/9;
+	grid-row: 2/4;
+}
+.Performance #head{
+	color: #0b49c4;
+	font-family: 'Istok Web', Verdana, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	height: 50px;
+	text-align: right;
+	margin-top: 30px;
+	margin-bottom: -10px;
+}
+.Performance #words{
+	display: inline-block;
+    white-space: nowrap;
+    margin-top: 0px;
+    margin-left: -100px;
+}
+.Performance #drop-down{
+	background-color: #e5e5e5;
+	margin-top: 9px;
+	height: 24px;
+	width: 234px;
+	margin-left:-110px;
+	font-family: 'Istok Web', Verdana, sans-serif;
+	font-size: 15px;
+	padding-top: 7px;
+	padding-left: 10px;
+	float: left;
+}
+.Performance #dropbutton{
+	background: url('https://www.jackson.com/static/jwp/images/element/global-sprite.png') no-repeat -42px -121px;
+	width: 30px;
+	height: 30px;
+	margin-top: 9px;
+	margin-left: 134px;
+}
+.Visibledrop{
+	display: grid;
+	grid-template-rows: repeat(7 1fr);
+	justify-items: start;
+	border: 1px solid;
+	margin-left: -110px;
+	width:270px;
+	background-color: white;
+}
+.Visibledrop > a{
+	display: inline-block;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    width: 97%;
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    padding-top: 9px;
+    padding-left: 8px;
+}
+.Visibledrop > a:hover{
+	color: #0314ff;
+	text-decoration: underline;
+}
+.inVisibledrop{
+	visibility: hidden;
+}
+.LanguageButton{
+	background-color:  #0b49c4;
+	color: white;
+	width: 200px;
+	border: 1px solid;
+	text-align: center;
+	padding-bottom: 20px;
+	box-shadow: 0px 2px 8px red;
+	height: 30px;
+	margin-top: 400px;
+	margin-left: 200px;
+	font-family:  'Istok Web', Verdana, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	cursor: pointer;
+}
+.LanguageButton:hover{
+	color: white;
+	background-color: #660000; 
+}
+.LanguageButton:active{
+	box-shadow: 0px 0px 0px #b9efae;
+}

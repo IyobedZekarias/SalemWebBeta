@@ -1,0 +1,73 @@
+.MenuBar{
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  width: 950px;
+  
+}
+@-moz-document url-prefix() {
+    .MenuBar {
+      scrollbar-color: #b9efae #0b49c4;
+      scrollbar-width: thin;
+    }
+}
+.MenuBar::-webkit-scrollbar {
+      width: 16px;
+      border: 5px solid white;
+
+    }
+
+.MenuBar::-webkit-scrollbar-thumb{
+     background-color: #b9efae;
+      background-clip: padding-box;
+      border: 0.08em solid black;
+      box-shadow: .03em .03em .03em black;
+}
+ .MenuBar::-webkit-scrollbar-track {
+      background-color: #0b49c4;
+    }
+.left{
+  float: left;
+  width: 6%;
+  margin-top: .3%;
+  height: 224%;
+  border: 1px solid black;
+}
+.right{ 
+  float: right;
+  width: 6%;
+  height: 224%;
+  border: 1px solid black;
+}
+.slide{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  border-color: white;
+  border-width: 1px;
+  border: solid;
+}
+.slide:hover{
+  background-color: #777;
+  cursor: pointer;
+  & > img{
+    opacity: .1;
+  }
+}
+.slide > p{
+  width: 93.5%;
+  padding-left: 20px;
+  text-align: left;
+}
+.slide #title{
+  background-color: #bab8b7;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  padding-top:10px;
+  color: black;
+  font-family:  'Istok Web', Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
