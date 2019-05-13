@@ -9,7 +9,7 @@ The is not going to be the ending design for the site but this design was made w
 The top of the site consists of two navigations components. The first navigation component inludes areas to learn more about what Salem is and will be, the second navigation component includes ways to see what Salem has done. This will be useful to both new users of the site and returning users. Everything in the Header is made with <a></a> and will be links to other pages that are yet to be made. 
 
 ### ImageSlider
-This component was made with an npm component <Carousel />. <Carousel /> allows devs to have a more easily built image slider in react. 
+This component was made with an npm component Carousel. Carousel allows devs to have a more easily built image slider in react. 
 
 ### Paragraph Wrapper
 #### Writing
@@ -18,4 +18,4 @@ This component is built in a way that allows the switching of the language by th
 The Drop Down is made with basic Javascript practices. With an onClick attribute of an HTML element calling a Javascript mehtod that sets the name of the element as either seen or unseen then having a portion of my CSS be made seperetaley for two possible classes
 
 ### Sliding Objects
-This is written by making a string of <SlideBuilder /> components, which are simple <div></div> tags that have a head body and text underneath. SlideBuilder has a set width and a overflow-x: scroll; attribute in the CSS that allows it to scroll horizontally.  
+This is written by making a string of SlideBuilder components, which are simple div tags that have a head body and text underneath. SlideBuilder has a set width and a overflow-x: scroll; attribute in the CSS that allows it to scroll horizontally.  
