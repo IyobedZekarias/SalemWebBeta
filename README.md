@@ -1,8 +1,12 @@
 # Salem Early Beta
+
 ## Navigating the code
 To find the HTML code and how HTML was used to build this site through JSX, navigate to the /src/components folder and open any file. Inside the file find the render() method and then the return statment inside that method. This is where any HTML code would be located. 
 All CSS is found in the /src/Styles folder
 All Data meant to emulate data coming from a server or API is located in the /src/Data folder
+
+### CSS
+This website was created using css grid instead of more common ways of designing sites like float. This was a mistake although css grid is a powerful tool it shoudl be used side by side with float and other elements. CSS grid causes some unwanted mishaps like the way objects move when the window is resized. 
 
 ### Header
 The is not going to be the ending design for the site but this design was made with a basis in Jackson.com with the layout and color changed 
